@@ -57,7 +57,7 @@ router.get('/', async (req, res) => {
                 }, {
                     quoted: xeonses
                 });
-				await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `🛑Do not share this file with anybody\n\n© Know grey and recognise grey-tness` }, {quoted: xeonses});
+				await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `🛑Do not share this file with anybody\n\n© CREATE BY MAGICAL KX ..REGARDS BOTS-OFFICIAL` }, {quoted: xeonses});
         await delay(100);
         return await removeFile('./session');
         process.exit(0)
